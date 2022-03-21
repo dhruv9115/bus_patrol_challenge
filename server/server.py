@@ -16,7 +16,7 @@ def create_bucket(bucket_name, region=None):
     """
 
     print("Bucket Name: " + bucket_name)
-
+    message = "Bucket Created with name: " + bucket_name
     # Retrieve the list of existing buckets
     s3 = boto3.client('s3')
     response = s3.list_buckets()
@@ -29,26 +29,29 @@ def create_bucket(bucket_name, region=None):
         if bucket["Name"] == bucket_name:
             print("Bucket already exists")
             bucket_exists = True
+            message = f"Bucket ${bucket_name} already exists"
             # Create bucket
     if not bucket_exists:
         try:
             if region is None:
                 s3_client = boto3.client('s3')
                 s3_client.create_bucket(Bucket=bucket_name)
+                message = "Bucket Created with name: " + bucket_name
             else:
                 s3_client = boto3.client('s3', region_name=region)
                 location = {'LocationConstraint': region}
                 s3_client.create_bucket(Bucket=bucket_name,
                                         CreateBucketConfiguration=location)
+                message = "Bucket Created with name: " + bucket_name
         except ClientError as e:
             logging.error(e)
             return "ClientError"
-    return "Bucket Created with name: " + bucket_name
+    return message
 
 
 @app.route('/')
 def run_s3_create():
-    return "Suffix this URL with /create_bucket/<BUCKET NAME>"
+    return '''Suffix this URL with /create_bucket/<BUCKET NAME>'''
 
 
 @app.route('/create_bucket/<bucket_name>')
