@@ -1,3 +1,38 @@
+# Bus Patrol Challenge
+
+# Docker
+
+To run the docker image:
+```
+docker build -t bpchallenge:0.0.1 .
+docker run -p 80:80 -e AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID> -e AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY> bpchallenge:0.0.1
+```
+Open in your web browser
+```
+localhost
+```
+
+To create a bucket
+```
+localhost/create_bucket/<bucket_name>
+```
+This will create an s3 bucket in your aws account in us-east-1 region
+
+# CDK
+
+To deploy this application to aws
+To test the stack
+```
+cdk synth
+```
+
+To deploy
+```
+cdk deploy
+```
+
+This will deploy and trigger the cdk pipeline
+
 
 # Welcome to your CDK Python project!
 
