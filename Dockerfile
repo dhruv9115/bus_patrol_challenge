@@ -1,5 +1,6 @@
 #Deriving the latest base image
-FROM python:3.9-slim-buster
+#FROM python:3.9-slim-buster
+FROM public.ecr.aws/docker/library/python:3.9-alpine3.14
 
 EXPOSE 80
 
