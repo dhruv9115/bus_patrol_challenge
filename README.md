@@ -32,6 +32,12 @@ cdk deploy
 ```
 
 This will deploy and trigger the cdk pipeline
+![screencapture-us-east-1-console-aws-amazon-codesuite-codepipeline-pipelines-PipelineStack-Pipeline9850B417-YO01I94C49UT-view-2022-03-21-16_00_15](https://user-images.githubusercontent.com/56513566/159354293-9d3a0f1a-e871-4839-9374-df9ea30a4b4d.png)
+
+Once the pipeline execution is completed and the app is deployed,
+Copy the Load Balancer DNS and paste it on your browser
+
+Run <URL>/create_bucket/<BUCKET_NAME> to create the s3 bucket
 
 
 # Welcome to your CDK Python project!
