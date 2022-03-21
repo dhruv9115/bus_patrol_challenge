@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ef198b2-f0db-4aa1-8e7c-1d50a65292d0" name="Default Changelist" comment="">
+    <list default="true" id="0ef198b2-f0db-4aa1-8e7c-1d50a65292d0" name="Default Changelist" comment="Adding missed files">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWSCLIV2.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bus_patrol_challenge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bus_patrol_challenge/bus_patrol_challenge_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdk.context.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdk.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdk.out/asset.000f78f9acfe4aa51e73831871f0b1c18a90f99067cee31c4248fca4e5685e58/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdk.out/asset.0f9150ac446be9ff2a67d1eeaab6395ae1e3b34c68d0ac889600e72f912ab954/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdk.out/asset.0f9150ac446be9ff2a67d1eeaab6395ae1e3b34c68d0ac889600e72f912ab954/server/data.html" afterDir="false" />
@@ -105,14 +112,15 @@
       <change afterPath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/server/data.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/server/form.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/test_bus_patrol_challenge_stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/bus_patrol_challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bus_patrol_challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus_patrol_challenge/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus_patrol_challenge/bus_patrol_challenge_stack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdk.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cdk.out/asset.000f78f9acfe4aa51e73831871f0b1c18a90f99067cee31c4248fca4e5685e58/.idea/bus_patrol_challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cdk.out/asset.000f78f9acfe4aa51e73831871f0b1c18a90f99067cee31c4248fca4e5685e58/.idea/bus_patrol_challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cdk.out/asset.000f78f9acfe4aa51e73831871f0b1c18a90f99067cee31c4248fca4e5685e58/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cdk.out/asset.000f78f9acfe4aa51e73831871f0b1c18a90f99067cee31c4248fca4e5685e58/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cdk.out/asset.000f78f9acfe4aa51e73831871f0b1c18a90f99067cee31c4248fca4e5685e58/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cdk.out/asset.000f78f9acfe4aa51e73831871f0b1c18a90f99067cee31c4248fca4e5685e58/.idea/workspace.xml" afterDir="false" />
@@ -533,12 +541,6 @@
       <change beforePath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/tests/unit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/create_s3_bucket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cdk.out/asset.f989a34d1e0c7dac6e159e356d865767c7f7ab1041b6b4d5d4e889b6c2f15577/tests/unit/test_bus_patrol_challenge_stack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements-dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/test_bus_patrol_challenge_stack.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -622,6 +624,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -672,6 +675,21 @@
       <option name="presentableId" value="Default" />
       <updated>1647628479753</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1647881683078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647881683079</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding missed files">
+      <created>1647881959574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647881959574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -697,6 +715,22 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Adding missed files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding missed files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ApplicationStack.py">
